@@ -1,8 +1,9 @@
 .header__links {
-    max-width: 399px;
+    width: 399px;
     display: flex;
     justify-content: space-between;
     margin: 0 5% auto;
     position: absolute;
     right: 0;
 }
+

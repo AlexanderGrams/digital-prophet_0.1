@@ -5,3 +5,7 @@
     font-size: 14px;
     line-height: 18px;
 }
+
+.header__link:hover {
+    opacity: 0.75;
+}
