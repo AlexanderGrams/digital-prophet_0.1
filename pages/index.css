@@ -1,6 +1,10 @@
+/* сброс стилей */
 @import url(../vendor/normalize.css);
+
+/* подключение шрифтов */
 @import url(../vendor/fonts/fonts.css);
 
+/* общие стили страницы */
 @import url(../blocks/page/page.css);
 
 /* header */
@@ -25,6 +29,7 @@
 .bikes {
     background-color: rgb(21, 80, 3);
     height: 300px;
+    margin: 0 auto;
     width: calc(100% * (1320/1440));
         /*   ширина страницы (сейчас 1440px) *  (ширина блока / ширина страницы)*/
         /*                                        это процент блока (0.91 -> 91%) */
