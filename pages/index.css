@@ -1,6 +1,29 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 
+.page {
+    color: #000;
+}
+
+.header {
+    margin: 28px auto 48px;
+}
+
+.header__links {
+    max-width: 399px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 calc(100%*(120/1440)) auto;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
 .bike {
     background-color: rgb(21, 80, 3);
     height: 300px;
@@ -9,3 +32,4 @@
         /*                                        это процент блока (0.91 -> 91%) */
     
 }
+
