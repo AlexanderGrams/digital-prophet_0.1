@@ -38,12 +38,13 @@
 
 .highway__galary {
     grid-area: galary;
-    display: flex;
+    display: grid;
+    grid-template-columns: 650px auto;
+    gap: 40px;
 }
 
 
 .highway__road {
- width: 650px;
 }
 
 .highway__arrows {
