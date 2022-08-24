@@ -1,13 +1,20 @@
+/* сброс стилей */
 @import url(../vendor/normalize.css);
+
+/* подключение шрифтов */
 @import url(../vendor/fonts/fonts.css);
 
+/* общие стили страницы */
 .page {
     font-family: 'Inter', Arial, sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .bike {
     background-color: rgb(21, 80, 3);
     height: 300px;
+    margin: 0 auto;
     width: calc(100% * (1320/1440));
         /*   ширина страницы (сейчас 1440px) *  (ширина блока / ширина страницы)*/
         /*                                        это процент блока (0.91 -> 91%) */
