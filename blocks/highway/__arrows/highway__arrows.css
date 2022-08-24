@@ -1,0 +1,6 @@
+.highway__arrows {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    grid-area: arrows;
+}

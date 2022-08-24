@@ -1,0 +1,6 @@
+.highway__galary {
+    grid-area: galary;
+    display: grid;
+    grid-template-columns: calc(100% * 650/1320) auto;
+    gap: 40px;
+}

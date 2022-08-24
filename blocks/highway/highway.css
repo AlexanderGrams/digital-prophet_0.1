@@ -13,43 +13,4 @@
     'subtitle .'
     'galary galary'
     'arrows .'
-
-}
-
-.highway__title {
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 60px;
-    letter-spacing: -0.5px;
-    grid-area: title;
-    margin: 0;
-}
-
-.highway__subtitle {
-    width: 460px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #222222;
-    opacity: 0.7;
-    margin: 0;
-    grid-area: subtitle;
-}
-
-.highway__galary {
-    grid-area: galary;
-    display: flex;
-}
-
-
-.highway__road {
- width: 650px;
-}
-
-.highway__arrows {
-    grid-area: arrows;
-}
-
-.highway__arrow {
-    width: 50px;
 }
