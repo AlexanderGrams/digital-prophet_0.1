@@ -1,0 +1,7 @@
+.merks__quote {
+    width: calc(100% * 470/1200);
+    margin-left: calc(100% * 80/1200);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
