@@ -2,5 +2,6 @@
     max-width: 1200px;
     width: calc(100%*1200/1440 );
     margin: 28px auto 48px;
-    position: relative;
+    display: flex;
+    justify-content: end;
 }
