@@ -29,8 +29,8 @@
 /* workout */
 
 /* footer */
-
-
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
 
 .bikes {
     background-color: rgb(21, 80, 3);
