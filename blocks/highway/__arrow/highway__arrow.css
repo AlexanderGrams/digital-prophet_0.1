@@ -1,3 +1,9 @@
 .highway__arrow {
     width: calc(100% * 50/120);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.highway__arrow:hover {
+    opacity: 0.75;
 }
