@@ -15,13 +15,12 @@
 /* bike */
 
 /* merks */
-.merks {
-    max-width: 1440px;
-    width: calc(100% * 1200px/1440px);
-    margin: 120px auto;
-    display: flex;
-}
-
+@import url(../blocks/merks/merks.css);
+@import url(../blocks/merks/__image/merks__image.css);
+@import url(../blocks/merks/__quote/merks__quote.css);
+@import url(../blocks/merks/__text/merks__text.css);
+@import url(../blocks/merks/__athor/merks__athor.css);
+@import url(../blocks/merks/__athor-work/merks__athor-work.css);
 /* highway */
 
 /* bicycles */
