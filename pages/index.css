@@ -24,6 +24,12 @@
 
 /* highway */
 @import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__title/highway__title.css);
+@import url(../blocks/highway/__subtitle/highway__subtitle.css);
+@import url(../blocks/highway/__galary/highway__galary.css);
+@import url(../blocks/highway/__road/highway__road.css);
+@import url(../blocks/highway/__arrows/highway__arrows.css);
+@import url(../blocks/highway/__arrow/highway__arrow.css);
 
 /* bicycles */
 
