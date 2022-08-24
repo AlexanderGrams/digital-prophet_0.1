@@ -1,35 +1,31 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 
-.page {
-    color: #000;
-}
+@import url(../blocks/page/page.css);
 
-.header {
-    margin: 28px auto 48px;
-}
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__links/header__links.css);
 
-.header__links {
-    max-width: 399px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 calc(100%*(120/1440)) auto;
-}
+/* bike */
 
-.header__link {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-}
+/* merks */
 
-.bike {
+/* highway */
+
+/* bicycles */
+
+/* workout */
+
+/* footer */
+
+
+
+.bikes {
     background-color: rgb(21, 80, 3);
     height: 300px;
     width: calc(100% * (1320/1440));
         /*   ширина страницы (сейчас 1440px) *  (ширина блока / ширина страницы)*/
         /*                                        это процент блока (0.91 -> 91%) */
-    
 }
-
