@@ -1,5 +1,5 @@
 .footer__wrap {
     max-width: 1200px;
     width: calc(100%*1200/1440 );
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
 }

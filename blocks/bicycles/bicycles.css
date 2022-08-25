@@ -1,0 +1,5 @@
+.bicycles {
+    margin: 60px auto;
+    max-width: 1200px;
+    width: calc(100%*(1200/1440));
+}

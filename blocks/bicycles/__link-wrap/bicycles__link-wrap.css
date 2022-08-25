@@ -1,0 +1,7 @@
+.bicycles__link-wrap {
+    margin-left: 40px;
+}
+
+.bicycles__link-wrap:first-child {
+    margin-left: 0;
+}

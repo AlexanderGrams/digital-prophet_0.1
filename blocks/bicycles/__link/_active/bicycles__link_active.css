@@ -1,0 +1,13 @@
+.bicycles__link_active {
+    opacity: 1;
+    font-weight: 600;
+    cursor: default;
+}
+
+.bicycles__link:hover {
+    opacity: 1;
+}
+
+.bicycles__link:active {
+    opacity: 1;
+}
