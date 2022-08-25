@@ -5,3 +5,8 @@
     margin: 0 5% auto;
 }
 
+@media screen and (max-width: 639px) {
+  .header__links {
+    display: none;
+  }
+}

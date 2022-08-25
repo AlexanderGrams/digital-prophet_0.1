@@ -4,4 +4,9 @@
     background-color: #F4F4F4;
     filter: drop-shadow(0px 20px 140px rgba(0, 0, 0, 0.06));
     z-index: 1;
+    transition: filter 0.1s linear;
+}
+
+.bicycles__image-wrap:hover {
+  filter: drop-shadow(0px 20px 140px rgba(0, 0, 0, 0.11))
 }
