@@ -27,6 +27,8 @@
 @import url(../blocks/highway/__title/highway__title.css);
 @import url(../blocks/highway/__subtitle/highway__subtitle.css);
 @import url(../blocks/highway/__galary/highway__galary.css);
+@import url(../blocks/highway/__road-wrap/highway__road-wrap.css);
+@import url(../blocks/highway/__road-wrap/_active/highway__road-wrap_active.css);
 @import url(../blocks/highway/__road/highway__road.css);
 @import url(../blocks/highway/__arrows/highway__arrows.css);
 @import url(../blocks/highway/__arrow/highway__arrow.css);
@@ -82,5 +84,5 @@
     filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
     border-radius: 20px;
 }
- 
+
 /*   все поломала и пошла спать, повезло тебе с напарницей ахахах)) надеюсь там немного конфликтов вылезет... */
