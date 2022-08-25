@@ -73,6 +73,9 @@
 @import url(../blocks/footer/__field-input/footer__field-input.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
+/* line */
+@import url(../blocks/line/line.css);
+
 .bikes {
     background-color: rgb(21, 80, 3);
     height: 300px;

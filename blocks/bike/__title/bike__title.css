@@ -6,3 +6,13 @@
     letter-spacing: -0.5px;
     margin: 0;
 }
+
+
+@media screen and (max-width: 320px){
+    .bike__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.5px;
+}
+}

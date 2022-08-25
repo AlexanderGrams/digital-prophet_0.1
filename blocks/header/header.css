@@ -7,3 +7,9 @@
     justify-content: end;
     align-items: center;
 }
+
+@media screen and (max-width: 320px){
+    .header {
+        margin-bottom: 70px;
+}
+}

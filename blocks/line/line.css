@@ -1,0 +1,13 @@
+.line {
+ display: none;
+ width: calc(100% * 284/320);
+ margin: 40px auto;
+ color: #E3E3E3;
+}
+
+@media screen and (max-width: 320px){
+
+    .line {
+        display: block;
+}
+}
