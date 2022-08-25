@@ -1,0 +1,4 @@
+.bike__name {
+    grid-area: name;
+    display: flex;
+}
