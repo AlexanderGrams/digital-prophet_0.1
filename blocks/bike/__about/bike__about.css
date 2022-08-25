@@ -13,3 +13,10 @@
     letter-spacing: 1px;
     margin-bottom: 117px;
 }
+
+@media screen and (max-width: 780px){
+    .bike__about {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
