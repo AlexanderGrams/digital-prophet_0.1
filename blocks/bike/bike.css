@@ -1,15 +1,22 @@
 .bike {
         max-width: 1440px;
-        width: calc(100% * 1200/1440);
-        margin: 0 auto 120px;
+        width: 92%;
+        margin: 0 0 auto 8.3%;
         display: grid;
-        grid-template-columns: calc(100% * 460/1200) auto;
-        grid-template-rows: auto  272px auto;
+        grid-template-columns: 460px calc(100% - 460px - calc(100% * 250/1320));
+        grid-template-rows: auto auto auto calc(18px + 209px);
         row-gap: 50px;
-        column-gap: calc(100% * 250/1200);
+        column-gap: calc(100% * 250/1320);
         grid-template-areas:
         'title photo'
         'text photo'
         'button photo'
         'name photo';
+        overflow: hidden;
+}
+
+@media screen and (max-width: 1080px){
+    .bike {
+        column-gap: 50px;
+    }
 }

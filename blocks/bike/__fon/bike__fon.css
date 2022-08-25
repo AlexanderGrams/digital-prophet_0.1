@@ -1,3 +1,5 @@
 .bike__fon {
     grid-area: photo;
+    object-fit: contain;
+    height: 100%;
 }
