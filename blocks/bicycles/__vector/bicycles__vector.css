@@ -1,0 +1,9 @@
+.bicycles__vector {
+  background-image: url(../../../images/bicycles_vector.svg);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 10px;
+  height: 6px;
+}

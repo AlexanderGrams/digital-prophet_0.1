@@ -1,0 +1,8 @@
+.bicycles__link-wrap_small {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 84px;
+  padding: 0;
+  margin: 8px 12px;
+}

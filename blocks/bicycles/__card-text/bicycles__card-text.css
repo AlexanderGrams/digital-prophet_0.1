@@ -7,3 +7,16 @@
     line-height: 1.22;
     color: #151515;
 }
+
+@media screen and (max-width: 640px) {
+  .bicycles__card-text {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bicycles__card-text {
+    display: none;
+  }
+}

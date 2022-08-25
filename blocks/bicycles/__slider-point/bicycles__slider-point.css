@@ -1,0 +1,23 @@
+.bicycles__slider-point {
+  width: 4px;
+  height: 4px;
+  background-color: #CACACA;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.bicycles__slider-point:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .bicycles__slider-point:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bicycles__slider-point:last-child {
+    display: block;
+  }
+}

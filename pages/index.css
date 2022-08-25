@@ -40,14 +40,22 @@
 @import url(../blocks/bicycles/__header/bicycles__header.css);
 @import url(../blocks/bicycles/__title/bicycles__title.css);
 @import url(../blocks/bicycles/__types/bicycles__types.css);
+@import url(../blocks/bicycles/__types/_small/bicycles__types_small.css);
 @import url(../blocks/bicycles/__link-wrap/bicycles__link-wrap.css);
+@import url(../blocks/bicycles/__link-wrap/_small/bicycles__link-wrap_small.css);
 @import url(../blocks/bicycles/__link/bicycles__link.css);
+@import url(../blocks/bicycles/__link/_small/bicycles__link_small.css);
 @import url(../blocks/bicycles/__link/_active/bicycles__link_active.css);
 @import url(../blocks/bicycles/__cards/bicycles__cards.css);
 @import url(../blocks/bicycles/__card/bicycles__card.css);
 @import url(../blocks/bicycles/__image-wrap/bicycles__image-wrap.css);
 @import url(../blocks/bicycles/__image/bicycles__image.css);
 @import url(../blocks/bicycles/__card-text/bicycles__card-text.css);
+@import url(../blocks/bicycles/__card-text/_small/bicycles__card-text_small.css);
+@import url(../blocks/bicycles/__vector/bicycles__vector.css);
+@import url(../blocks/bicycles/__slider-points/bicycles__slider-points.css);
+@import url(../blocks/bicycles/__slider-point/bicycles__slider-point.css);
+@import url(../blocks/bicycles/__slider-point/_active/bicycles__slider-point_active.css);
 
 
 /* workout */

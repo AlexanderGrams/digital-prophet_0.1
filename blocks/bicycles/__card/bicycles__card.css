@@ -6,3 +6,19 @@
     line-height: 1.22;
     color: #151515;
 }
+
+@media screen and (max-width: 1080px){
+  .bicycles__card:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .bicycles__card {
+    display: none;
+  }
+
+  .bicycles__card:first-child {
+    display: block;
+  }
+}
