@@ -1,5 +1,11 @@
 .bicycles {
-    margin: 60px auto 210px;
+    margin: 120px auto 210px;
     max-width: 1200px;
     width: calc(100%*(1200/1440));
+}
+
+@media screen and (max-width: 640px){
+    .bicycles {
+        margin: 80px auto ;
+    }
 }

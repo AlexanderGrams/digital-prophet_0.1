@@ -9,3 +9,15 @@
     letter-spacing: -0.5px;
     color: #151515;
 }
+
+@media screen and (max-width: 1080px){
+    .bicycles__title {
+        font-size: 5.5vw;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .bicycles__title {
+        margin-bottom: 40px;
+    }
+}
