@@ -14,3 +14,17 @@
     'galary'
     'arrows'
 }
+
+@media screen and (max-width: 480px){
+
+    .highway {
+        width: calc(100% * (284/320));
+        grid-template-columns: auto calc(100% * 58/284);
+        grid-template-rows: 40px auto auto;
+        row-gap: 40px;
+        grid-template-areas:
+    'title arrows'
+    'galary galary'
+    'subtitle subtitle'
+    }
+}

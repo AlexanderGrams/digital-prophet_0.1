@@ -14,7 +14,11 @@
 }
 
 @media screen and (max-width: 640px){
-    .bicycles__cards {
-        margin-top: 20px;
+    .merks__text {
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 29px;
+        letter-spacing: -0.5px;
     }
 }

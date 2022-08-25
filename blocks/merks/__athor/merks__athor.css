@@ -4,3 +4,9 @@
     line-height: 32px;
     margin: 0;
 }
+
+@media screen and (max-width: 640px){
+    .merks__athor {
+        margin: 40px auto 4px 0;
+    }
+}

@@ -1,3 +1,4 @@
-.highway__road-wrap {
-
+.highway__road-wrap:last-of-type {
+    display: none;
 }
+

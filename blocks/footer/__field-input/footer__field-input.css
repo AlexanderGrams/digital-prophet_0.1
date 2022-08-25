@@ -2,7 +2,8 @@
     margin: 0 0 100px 0;
     padding: 0 20px;
     display: block;
-    width: 350px;
+    max-width: 350px;
+    width: 88%;
     height: 50px;
     border: 1px solid rgba(199, 199, 199, 0.5);
     border-radius: 4px;
@@ -31,3 +32,4 @@
 .footer__field-input:focus-visible::placeholder {
     opacity: 0;
 }
+
