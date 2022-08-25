@@ -1,7 +1,7 @@
 .bike__text {
     grid-area: text;
     max-width: 460px;
-    width: 90%;
+    width: 92%;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -12,6 +12,7 @@
 
 @media screen and (max-width: 320px){
     .bike__text {
+        margin: 20px auto;
         font-size: 12px;
         line-height: 18px;
 }

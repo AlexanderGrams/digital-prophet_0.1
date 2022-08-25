@@ -7,6 +7,13 @@
 
 @media screen and (max-width: 640px){
     .merks__athor {
-        margin: 40px auto 4px 0;
+        margin: 38px auto 0 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .merks__athor {
+        font-size: 14px;
+        line-height: 22px;
     }
 }

@@ -5,8 +5,13 @@
     display: flex;
 }
 
+.merks .line {
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 640px){
     .merks {
+        width: calc(100% * (320 - 18 - 18)/320);
         margin: 0 auto 40px;
         display: block;
     }

@@ -2,3 +2,9 @@
     grid-area: name;
     display: flex;
 }
+
+@media screen and (max-width: 780px){
+    .bike__name {
+        display: none;
+    }
+}
