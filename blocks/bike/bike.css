@@ -1,0 +1,34 @@
+.bike {
+        max-width: 1440px;
+        width: 92%;
+        margin: 0 0 0 8%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto calc(18px + 209px);
+        row-gap: 50px;
+        column-gap: calc(100% * 250/1320);
+        grid-template-areas:
+        'title photo'
+        'text photo'
+        'button photo'
+        'name photo';
+        overflow: hidden;
+}
+
+@media screen and (max-width: 1080px){
+    .bike {
+        column-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .bike {
+        margin: 0 auto;
+        grid-template-rows: auto ;
+        grid-template-areas:
+        'title '
+        'photo'
+        'text'
+        'button';
+    }
+}

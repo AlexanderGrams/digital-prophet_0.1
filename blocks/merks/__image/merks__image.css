@@ -1,3 +1,9 @@
 .merks__image {
     width: calc(100% * 650/1200);
 }
+
+@media screen and (max-width: 640px){
+    .merks__image {
+        width: 100%;
+    }
+}

@@ -14,6 +14,7 @@
 }
 
 @media screen and (max-width: 640px){
+<<<<<<< HEAD
   .bicycles__cards {
       margin-top: 20px;
   }
@@ -24,3 +25,10 @@
       grid-template-columns: 1fr;
   }
 }
+=======
+    .bicycles__cards {
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+>>>>>>> 2cf2434531ce4ffe130ba9c2df66dc7d58d180bf

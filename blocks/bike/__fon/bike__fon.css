@@ -1,0 +1,12 @@
+.bike__fon {
+    grid-area: photo;
+    object-fit: contain;
+    height: 100%;
+}
+
+@media screen and (max-width: 780px){
+    .bike__fon {
+        margin-left: 30px;
+        width: 100%;
+    }
+}

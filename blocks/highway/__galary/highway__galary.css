@@ -9,3 +9,12 @@
 .highway__galary::before {
     background-image: url(../../../images/highway_green_flag.svg) ;
 }
+
+@media screen and (max-width: 480px){
+
+    .highway__galary {
+        grid-template-columns: 100%;
+    }
+    
+    
+}
