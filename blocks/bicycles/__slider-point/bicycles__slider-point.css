@@ -4,6 +4,7 @@
   background-color: #CACACA;
   margin-left: 5px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .bicycles__slider-point:first-child {
