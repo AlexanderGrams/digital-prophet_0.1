@@ -9,5 +9,6 @@
 @media screen and (max-width: 640px){
     .bicycles__cards {
         margin-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

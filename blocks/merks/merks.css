@@ -4,3 +4,10 @@
     margin: 120px auto;
     display: flex;
 }
+
+@media screen and (max-width: 480px){
+    .merks {
+        margin-top: 20px;
+        display: block;
+    }
+}
