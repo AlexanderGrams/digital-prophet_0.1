@@ -4,13 +4,13 @@
     margin-left: calc(100%*120/1440);
     object-fit: cover;
     display: grid;
-    grid-template-columns: calc(100%* 650/1340) auto;
+    grid-template-columns: auto;
     grid-template-rows: 60px 142px auto 50px;
     row-gap: 50px;
     column-gap: calc(100% * 40/1440);
     grid-template-areas:
-    'title .'
-    'subtitle .'
-    'galary galary'
-    'arrows .'
+    'title'
+    'subtitle'
+    'galary'
+    'arrows'
 }
