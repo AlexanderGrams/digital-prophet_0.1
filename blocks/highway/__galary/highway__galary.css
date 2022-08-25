@@ -2,5 +2,10 @@
     grid-area: galary;
     display: grid;
     grid-template-columns: calc(100% * 650/1320) auto;
-    gap: 40px;
+    gap: calc(100% * 40/1440);
+    object-fit: cover;
+}
+
+.highway__galary::before {
+    background-image: url(../../../images/highway_green_flag.svg) ;
 }
