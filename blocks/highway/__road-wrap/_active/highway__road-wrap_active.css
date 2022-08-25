@@ -5,12 +5,10 @@
 .highway__road-wrap_active::before {
   content: '';
   position: absolute;
-  top: 90%;
-  /*calc(100%-100%*(40/400)) */
+  bottom: 16px;
   left: 0;
   width: 100px;
   height: 40px;
   background-image: url(../../../../images/highway_green_flag.svg);
-  transform: translateY(-50%);
   z-index: 1;
 }
