@@ -1,14 +1,34 @@
 .bicycles__cards {
-    margin: 120px 0 0 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 30px;
+  margin: 120px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+@media screen and (max-width: 1080px){
+  .bicycles__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 640px){
+<<<<<<< HEAD
+  .bicycles__cards {
+      margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .bicycles__cards {
+      grid-template-columns: 1fr;
+  }
+}
+=======
     .bicycles__cards {
         margin-top: 20px;
         grid-template-columns: repeat(2, 1fr);
     }
 }
+>>>>>>> 2cf2434531ce4ffe130ba9c2df66dc7d58d180bf
