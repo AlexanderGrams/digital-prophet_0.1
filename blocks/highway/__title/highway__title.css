@@ -6,3 +6,9 @@
     grid-area: title;
     margin: 0;
 }
+
+@media screen and (max-width: 992px){
+    .highway__title {
+        font-size: 5.5vw;
+    }
+}

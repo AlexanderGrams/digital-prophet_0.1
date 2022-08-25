@@ -1,5 +1,6 @@
 .highway__subtitle {
-    width: 460px;
+    max-width: 460px;
+    width: 90%;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;

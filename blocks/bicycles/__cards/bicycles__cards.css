@@ -5,3 +5,9 @@
     grid-template-rows: auto;
     grid-column-gap: 30px;
 }
+
+@media screen and (max-width: 640px){
+    .bicycles__cards {
+        margin-top: 20px;
+    }
+}

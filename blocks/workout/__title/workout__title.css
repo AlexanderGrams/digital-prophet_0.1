@@ -7,3 +7,9 @@
     margin: 0;
 
 }
+
+@media screen and (max-width: 1080px){
+    .workout__title {
+        font-size: 5.5vw;
+    }
+}

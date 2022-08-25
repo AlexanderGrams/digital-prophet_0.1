@@ -5,3 +5,16 @@
     letter-spacing: -0.5px;
     margin: 0;
 }
+
+@media screen and (max-width: 1080px){
+    .merks__text {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .bicycles__cards {
+        margin-top: 20px;
+    }
+}
