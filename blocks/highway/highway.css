@@ -15,7 +15,12 @@
 @media screen and (max-width: 480px){
     .highway {
         margin: 0 auto;
+        width: calc(100% * (320 - 18 - 18)/320);
+    }
+}
+
+@media screen and (max-width: 320px){
+    .highway {
         max-width: 284px;
-        width: 97%;
     }
 }
