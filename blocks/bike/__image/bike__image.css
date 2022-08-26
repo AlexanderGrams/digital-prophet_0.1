@@ -4,7 +4,7 @@
   right: 0;
   width: calc(100%*610/810);
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
