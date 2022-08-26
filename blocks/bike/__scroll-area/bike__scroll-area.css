@@ -1,0 +1,5 @@
+.bike__scroll-area {
+  margin-top: calc(100%*347/856);
+  position: relative;
+  height: calc(100%*430/856);
+}
