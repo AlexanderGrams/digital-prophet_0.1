@@ -26,6 +26,8 @@
 @import url(../blocks/bike/__fon/bike__fon.css);
 @import url(../blocks/bike/__image/bike__image.css);
 @import url(../blocks/bike/__card/bike__card.css);
+@import url(../blocks/bike/__card-image/bike__card-image.css);
+@import url(../blocks/bike/__card-placeholder/bike__card-placeholder.css);
 
 /* merks */
 @import url(../blocks/merks/merks.css);
