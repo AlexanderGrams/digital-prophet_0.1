@@ -10,3 +10,10 @@
         padding: 40px 0;
     }
 }
+
+@media screen and (max-width: 320px){
+    .bicycles {
+        width: calc(100% * 284/320) ;
+        padding: 20px 0 60px;
+    }
+}

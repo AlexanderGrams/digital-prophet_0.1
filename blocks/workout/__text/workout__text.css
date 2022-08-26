@@ -9,3 +9,9 @@
     margin: 0;
 }
 
+@media screen and (max-width: 320px){
+    .workout__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

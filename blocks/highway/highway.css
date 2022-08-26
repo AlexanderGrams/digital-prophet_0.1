@@ -19,7 +19,10 @@
 @media screen and (max-width: 480px){
 
     .highway {
-        width: calc(100% * (284/320));
+        margin: 0 auto;
+        padding: 20px 0 60px;
+        max-width: 284px;
+        width: 97%;
         grid-template-columns: auto calc(100% * 58/284);
         grid-template-rows: 40px auto auto;
         row-gap: 40px;

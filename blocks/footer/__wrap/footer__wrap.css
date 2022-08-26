@@ -3,3 +3,9 @@
     width: calc(100%*1200/1440 );
     margin: 0 auto;
 }
+
+@media screen and (max-width: 320px){
+    .footer__wrap {
+        width: calc(100%*284/320 );
+    }
+}

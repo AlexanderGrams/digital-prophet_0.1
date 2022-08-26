@@ -26,3 +26,10 @@
                 'links';
         }
     }
+
+@media screen and (max-width: 320px){
+        .workout {
+                width: calc(100% * 284/320);
+                padding: 20px 0 60px;
+        }
+}

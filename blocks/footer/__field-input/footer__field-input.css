@@ -33,3 +33,10 @@
     opacity: 0;
 }
 
+@media screen and (max-width: 480px){
+    .footer__field-input {
+        padding: 0 10px;
+        width: 90%;
+    }
+}
+

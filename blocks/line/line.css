@@ -1,7 +1,7 @@
 .line {
  display: none;
  width: calc(100% * 284/320);
- margin: 40px auto;
+ margin: 20px auto;
  color: #E3E3E3;
 }
 
