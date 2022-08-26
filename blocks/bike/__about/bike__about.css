@@ -17,8 +17,7 @@
     text-align: center;
     letter-spacing: 1px;
     position: relative;
-    transition: all 2s ease;
-    transition: background-size 2s ease;
+    transition: background-size 1s ease;
 }
 
 .bike__about:hover {
