@@ -15,6 +15,12 @@
     }
 }
 
+@media screen and (max-width: 640px){
+    .footer__title {
+        font-size: 3vw;
+    }
+}
+
 @media screen and (max-width: 480px){
 
     .footer__title {
