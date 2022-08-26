@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 640px){
     .bike__text {
       font-size: 12px;
       line-height: 1.5;

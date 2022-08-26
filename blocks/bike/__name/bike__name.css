@@ -3,7 +3,7 @@
     align-self: flex-start;
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 768px){
     .bike__name {
         display: none;
     }

@@ -5,9 +5,10 @@
     height: 100%;
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 768px){
     .bike__fon {
-        margin-left: 0 18px 0 48px;
-        width: 100%;
+        margin-left: auto;
+        height: auto;
+        width: calc(100%*348/378);
     }
 }
