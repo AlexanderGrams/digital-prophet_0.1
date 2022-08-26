@@ -6,13 +6,13 @@
 
 @media screen and (max-width: 1080px){
   .bike__scroll-area{
-    margin-top: calc(100%*151/348);
+    margin-top: 370px;
   }
 }
 
 @media screen and (max-width: 640px){
   .bike__scroll-area{
-    /* margin-top: calc(100%*200/348); */
+    margin-top: 280px;
   }
 }
 
