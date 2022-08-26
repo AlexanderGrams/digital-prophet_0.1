@@ -1,0 +1,15 @@
+.header__wrap {
+  max-width: 1200px;
+  width: calc(100%*1200/1440 );
+  margin: 0 auto;
+  padding: 28px 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px){
+  .header__wrap {
+    padding-bottom: 30px;
+}
+}

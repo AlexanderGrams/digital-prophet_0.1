@@ -1,0 +1,44 @@
+.bike__wrap {
+  max-width: 1320px;
+  width: calc(100%*1320/1440);
+  margin: 0 0 0 auto;
+  display: grid;
+  grid-template-columns: minmax(auto, 410px) minmax(auto, 610px);
+  grid-template-rows: minmax(160px, auto) minmax(112px, auto) 167px auto;
+  column-gap: 10px;
+  row-gap: 50px;
+  grid-template-areas:
+        'title photo'
+        'text photo'
+        'button photo'
+        'name photo';
+  justify-content: space-between;
+}
+
+
+/* .bike {
+        grid-template-rows: auto auto auto calc(18px + 209px);
+        overflow: hidden;
+}
+
+@media screen and (max-width: 1080px){
+    .bike {
+        column-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .bike {
+        width: calc(100% * (320 - 18 - 18)/320);
+        margin: 0 auto;
+        padding-bottom: 35px;
+        grid-template-rows: auto 348px auto 50px;
+        grid-template-columns: auto;
+        row-gap: 20px;
+        grid-template-areas:
+        'title '
+        'photo'
+        'text'
+        'button';
+    }
+} */

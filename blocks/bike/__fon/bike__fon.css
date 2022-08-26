@@ -1,7 +1,8 @@
 .bike__fon {
     grid-area: photo;
-    object-fit: contain;
-    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 780px){

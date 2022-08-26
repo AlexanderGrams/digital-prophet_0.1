@@ -1,6 +1,6 @@
 .bike__name {
     grid-area: name;
-    display: flex;
+    align-self: flex-start;
 }
 
 @media screen and (max-width: 780px){

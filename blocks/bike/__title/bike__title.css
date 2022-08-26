@@ -5,12 +5,14 @@
     line-height: 60px;
     letter-spacing: -0.5px;
     margin: 0;
+    padding: 0;
+    align-self: end;
 }
 
 
 @media screen and (max-width: 320px){
     .bike__title {
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         font-weight: 700;
         font-size: 32px;
         line-height: 40px;

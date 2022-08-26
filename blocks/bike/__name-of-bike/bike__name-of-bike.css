@@ -1,3 +1,17 @@
 .bike__name-of-bike {
     margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.bike__name-of-bike::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  width: 132px;
+  height: 2px;
+  background-color: #D7D4D4;
+  transform: translateX(100%);
 }
