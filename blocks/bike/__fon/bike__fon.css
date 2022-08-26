@@ -11,3 +11,11 @@
       width: calc(100%*348/378);
   }
 }
+
+@media screen and (max-width: 480px){
+  .bike__fon {
+      margin-left: auto;
+      height: 348px;
+      width: calc(100%*348/378);
+  }
+}

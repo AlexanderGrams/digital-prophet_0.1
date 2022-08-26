@@ -20,7 +20,7 @@
 @media screen and (max-width: 320px){
     .merks {
         width: calc(100% * (320 - 18 - 18)/320);
-        padding-top: 120px;
+        padding-top: 15px;
         display: block;
     }
 }
