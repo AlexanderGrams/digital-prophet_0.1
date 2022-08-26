@@ -9,3 +9,15 @@
     margin-top: calc(100%*151/348);
   }
 }
+
+@media screen and (max-width: 640px){
+  .bike__scroll-area{
+    /* margin-top: calc(100%*200/348); */
+  }
+}
+
+@media screen and (max-width: 321px){
+  .bike__scroll-area{
+    margin-top: calc(100%*190/348);
+  }
+}

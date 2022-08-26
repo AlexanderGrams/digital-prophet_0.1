@@ -14,3 +14,10 @@
     padding: 10px 26px;
   }
 }
+
+
+@media screen and (max-width: 321px){
+  .bike__card {
+    top: 40%;
+  }
+}
