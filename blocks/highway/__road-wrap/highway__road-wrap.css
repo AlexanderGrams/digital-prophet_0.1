@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px){
+@media screen and (max-width: 480px){
     .highway__road-wrap:last-of-type  {
         display: none; 
 }
