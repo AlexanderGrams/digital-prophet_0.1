@@ -1,12 +1,13 @@
 .bike__fon {
-    grid-area: photo;
-    height: 100%;
+  grid-area: photo;
+  height: 100%;
+  position: relative;
 }
 
 @media screen and (max-width: 640px){
-    .bike__fon {
-        margin-left: auto;
-        height: auto;
-        width: calc(100%*348/378);
-    }
+  .bike__fon {
+      margin-left: auto;
+      height: auto;
+      width: calc(100%*348/378);
+  }
 }

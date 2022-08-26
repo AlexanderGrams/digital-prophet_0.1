@@ -1,5 +1,11 @@
 .bike__card {
+  padding: 20px 50px;
+  border-radius: 20px;
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  background-color: #F4F4F4;
+  display: inline-block;
   position: sticky;
-  top: 0;
+  top: 49%;
   left: 0;
+  transform: translateY(-26%);
 }
