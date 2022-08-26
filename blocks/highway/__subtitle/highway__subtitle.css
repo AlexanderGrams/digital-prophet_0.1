@@ -9,3 +9,10 @@
     margin: 0;
     grid-area: subtitle;
 }
+
+@media screen and (max-width: 320px){
+    .highway__subtitle {
+        font-size: 12px;
+        line-height: 18px;
+    }
+  }

@@ -15,3 +15,10 @@
 .workout__link:hover {
     opacity: 0.75;
 }
+
+@media screen and (max-width: 320px){
+    .workout__link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

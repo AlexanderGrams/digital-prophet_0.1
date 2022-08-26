@@ -1,0 +1,25 @@
+.highway__container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px 142px auto 50px;
+    row-gap: 50px;
+    column-gap: calc(100% * 40/1440);
+    grid-template-areas:
+    'title'
+    'subtitle'
+    'galary'
+    'arrows';
+}
+
+@media screen and (max-width: 480px){
+    .highway__container {
+        padding-top: 20px;
+        grid-template-columns: auto calc(100% * 58/284);
+        grid-template-rows: 40px auto auto;
+        row-gap: 40px;
+        grid-template-areas:
+        'title arrows'
+        'galary galary'
+        'subtitle subtitle';
+    }
+}
