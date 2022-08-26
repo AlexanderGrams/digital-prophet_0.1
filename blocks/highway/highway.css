@@ -4,16 +4,13 @@
     margin-left: calc(100%*120/1440);
     padding: 60px 0;
     object-fit: cover;
-    
 }
 
 @media screen and (max-width: 480px){
-
     .highway {
         margin: 0 auto;
         padding: 0 0 40px;
         max-width: 284px;
         width: 97%;
-        
     }
 }

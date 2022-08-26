@@ -87,14 +87,6 @@
 /* line */
 @import url(../blocks/line/line.css);
 
-.bikes {
-    background-color: rgb(21, 80, 3);
-    height: 300px;
-    margin: 0 auto;
-    width: calc(100% * (1320/1440));
-        /*   ширина страницы (сейчас 1440px) *  (ширина блока / ширина страницы)*/
-        /*                                        это процент блока (0.91 -> 91%) */
-}
 
 .bike_bike-fix {
     position: sticky;

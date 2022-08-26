@@ -11,10 +11,7 @@
 }
 
 @media screen and (max-width: 480px){
-
     .highway__galary {
         grid-template-columns: 100%;
     }
-    
-    
 }

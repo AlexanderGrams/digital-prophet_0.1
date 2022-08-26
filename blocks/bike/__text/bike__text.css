@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 320px){
     .bike__text {
-        /* margin: 20px auto; */
         font-size: 12px;
         line-height: 18px;
 }

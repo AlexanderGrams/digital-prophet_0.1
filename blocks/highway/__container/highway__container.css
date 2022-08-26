@@ -8,11 +8,10 @@
     'title'
     'subtitle'
     'galary'
-    'arrows'
+    'arrows';
 }
 
 @media screen and (max-width: 480px){
-
     .highway__container {
         padding-top: 20px;
         grid-template-columns: auto calc(100% * 58/284);
@@ -21,6 +20,6 @@
         grid-template-areas:
         'title arrows'
         'galary galary'
-        'subtitle subtitle'
+        'subtitle subtitle';
     }
 }

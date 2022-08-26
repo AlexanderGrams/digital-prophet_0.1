@@ -13,13 +13,13 @@
 @media screen and (max-width: 640px){
     .workout__container {
         padding-top: 20px;
-            row-gap: 40px;
-            grid-template-columns:auto;
-            grid-template-rows: auto;
-            grid-template-areas:
-            'title'
-            'photo'
-            'text'
-            'links';
+        row-gap: 40px;
+        grid-template-columns:auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+        'title'
+        'photo'
+        'text'
+        'links';
     }
 }

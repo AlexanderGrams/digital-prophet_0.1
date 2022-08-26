@@ -16,9 +16,7 @@
 @media screen and (max-width: 640px){
     .merks__text {
         margin-top: 38px;
-        font-weight: 600;
         font-size: 23px;
         line-height: 29px;
-        letter-spacing: -0.5px;
     }
 }
