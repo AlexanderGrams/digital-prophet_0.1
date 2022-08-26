@@ -1,4 +1,4 @@
-.highway__subtitle {
+.highway__text {
     max-width: 460px;
     width: 90%;
     font-weight: 400;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 320px){
-    .highway__subtitle {
+    .highway__text {
         font-size: 12px;
         line-height: 18px;
     }

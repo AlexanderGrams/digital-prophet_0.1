@@ -41,7 +41,7 @@
 @import url(../blocks/highway/highway.css);
 @import url(../blocks/highway/__container/highway__container.css);
 @import url(../blocks/highway/__title/highway__title.css);
-@import url(../blocks/highway/__subtitle/highway__subtitle.css);
+@import url(../blocks/highway/__text/highway__text.css);
 @import url(../blocks/highway/__galary/highway__galary.css);
 @import url(../blocks/highway/__road-wrap/highway__road-wrap.css);
 @import url(../blocks/highway/__road-wrap/_active/highway__road-wrap_active.css);
