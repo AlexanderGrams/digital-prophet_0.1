@@ -1,6 +1,11 @@
 .bike__name-of-bike {
     margin: 0;
     padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    color: #151515;
     display: inline-block;
     position: relative;
 }
@@ -14,4 +19,11 @@
   height: 2px;
   background-color: #D7D4D4;
   transform: translateX(100%);
+}
+
+@media screen and (max-width: 1080px) {
+  .bike__name-of-bike::after {
+    width: 60px;
+    right: -10px;
+  }
 }

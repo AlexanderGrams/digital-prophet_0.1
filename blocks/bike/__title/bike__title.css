@@ -2,20 +2,23 @@
     grid-area: title;
     font-weight: 700;
     font-size: 55px;
-    line-height: 60px;
+    line-height: 1.09;
     letter-spacing: -0.5px;
     margin: 0;
     padding: 0;
     align-self: end;
+    color: #151515;
 }
 
-
-@media screen and (max-width: 320px){
-    .bike__title {
-        /* margin-bottom: 20px; */
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 40px;
-        letter-spacing: -0.5px;
+@media screen and (max-width: 1080px) {
+  .bike__title {
+    font-size: 5vw;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .bike__title {
+    font-size: 32px;
+    line-height: 1.25;
+  }
 }
