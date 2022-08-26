@@ -3,6 +3,10 @@
   height: 100%;
   bottom: 0;
   right: 0;
+  width: calc(100%*610/810);
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media screen and (max-width: 640px){

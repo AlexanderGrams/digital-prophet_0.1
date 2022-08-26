@@ -8,3 +8,9 @@
   top: 45%;
   left: 0;
 }
+
+@media screen and (max-width: 1080px) {
+  .bike__card {
+    padding: 10px 26px;
+  }
+}
