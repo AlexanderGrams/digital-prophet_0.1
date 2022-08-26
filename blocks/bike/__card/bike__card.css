@@ -1,5 +1,6 @@
 .bike__card {
   position: sticky;
+  background-color: #F4F4F4;
   top: 0;
   left: 0;
 }
