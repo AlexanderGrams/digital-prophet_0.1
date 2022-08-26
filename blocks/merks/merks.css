@@ -1,7 +1,8 @@
 .merks {
     max-width: 1440px;
     width: calc(100% * 1200/1440);
-    margin: 120px auto;
+    margin: 0 auto;
+    padding: 120px 0 60px;
     display: flex;
 }
 
@@ -12,7 +13,7 @@
 @media screen and (max-width: 640px){
     .merks {
         width: calc(100% * (320 - 18 - 18)/320);
-        margin: 0 auto 40px;
+        padding-bottom: 20px;
         display: block;
     }
 }
